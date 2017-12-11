@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.header {
+    height: 465px;
+    margin-left: -15px;
+    margin-right: -15px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.6), 
+        rgba(0,0,0,0.6)), url(../images/header-bg-1200x621.png) bottom;
+    color: whitesmoke;
+}
+
+.header__nav {
+    max-width: 570px;
+    margin: 0 auto;
+    padding: 25px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header__text {
+}
+
+.header__icon {
+    position: relative;
+    height: 50px;
+    top: 40px;
+}
+
+.header__nav a {
+    color: whitesmoke;
+}
+
+.header_list_item {
+    margin-top: 5px;
+    padding: 0 15px;
+}
+
+.header__icon__i {
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+    bottom: 0px;
+}
+
+.header__text__h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.btn, .btn:hover, .btn:focus {
+    margin: 10px 0;
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    
+}
+
+.after-header {
+    width: 100%;
+    min-height: 410px;
+    margin: 0 auto;
+    padding: 50px 5vw;
+}
+
+.after-header__img {
+    background: url(../images/phone-600x310.png) no-repeat right;
+}
+
+.design-section {
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    padding: 50px 5vw;
+}
+
+.design-section__img {
+    background: url(../images/i-phone-600x460.png) no-repeat top center;
+}
+
+.design-section__swipe-btn {
+    margin: 10px;
+    font-size: 13px;
+}
+
+.design-section__swipe-btn__i:nth-of-type(n) {
+    margin-right: 15px;
+}
+
+.design-section__swipe-btn__i:hover {
+    cursor: pointer;
+}
+
+.design-section__swipe-btn__slider {}
+
+.after-header__slider-container {
+    width: 100%;
+    clear: right;
+}
+
+.after-header__slider-list {
+    width: 100%;
+    clear: right;
+}
+
+.after-header__slider-list__item {
+    width: 49%;
+    float: right;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.after-header__slider-list__item__img {
+    width: 100%;
+}
+
+.after-header__slider-icon {
+    min-width: 10px;
+    float: right;
+
+}
+
+.after-header__comm {
+    width: 50%;
+    padding: 40px 60px;
+}
+
+.after-header__comm__bckg-image {
+    padding: 15px 0;
+    
+}
+.after-header__cam-color {
+    color: #28a745;
+    text-shadow: 2px 1px 1px #ccc;
+}
+
+.call-to-action {
+    height: 490px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 50px 5vw;
+    background: linear-gradient(0deg, rgba(0,50,0,0.7), 
+        rgba(0,0,0,0.6)), 
+        url(../images/blu-stripes.png) repeat, 
+        url(../images/subscribe-bg-1500x1000.png) center top;
+    color: whitesmoke;
+}
+
+.call-to-action__subs {
+    max-height: 120px;
+    width: 100%;
+    transform: translateY(100%);
+}
+
+.call-to-action__subs__h2 {
+    padding: 20px;
+    font-size: 1.375em;
+    font-weight: bold;
+}
+
+.call-to-action__subs__email {
+    display: inline-block;
+}
+
+.call-to-action__email__wrapper  {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.download {
+    height: 400px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 50px 5vw;
+    background: #f8f8ff;
+}
+
+.download__main {}
+
+.download__h2, .after-header__h2 {
+    font-size: 1.375em;
+    font-weight: bold;
+}
+
+.download__p {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    
+}
+
+.download__container__btn {
+    padding: 30px 0;
+    
+}
+
+.download__btn {
+    font-weight: bold;
+}
+
+.footer {
+    width: 100%;
+    height: 90px;
+    padding: 20px 5vw;
+    margin-bottom: 10px;
+    
+}
+
+.footer__list {
+    color: #28a745;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer__list__item {
+}
+
+.footer__link, .footer__link:hover {
+    color: dimgray;
+    text-decoration: none;
+    display: block;
+    margin: 2px 10px;
+}
+
+.footer__copyright {
+    margin: 2px 10px;
+}
+
+.footer__bg-img {
+    
+}
+
+
+@media screen and (min-width: 515px) {}
