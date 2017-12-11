@@ -65,10 +65,12 @@
 }
 
 .after-header {
-    width: 100%;
     min-height: 410px;
-    margin: 0 auto;
+    margin-left: -15px;
+    margin-right: -15px;
     padding: 50px 5vw;
+    background: linear-gradient(45deg, #f8f8ff, white);
+    
 }
 
 .after-header__img {
